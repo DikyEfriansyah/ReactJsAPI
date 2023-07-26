@@ -9,6 +9,7 @@ import Counter from './Counter';
 import Counter1 from './Counter1';
 import CounterHook from './CounterHook';
 import RegionViewApi from './RegionView/RegionViewApi';
+import RegionSagaView from './ViewReduxSaga/RegionSagaView';
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       <Counter1/>
       <CounterHook></CounterHook> */}
       {/* <Display></Display> */}
-      <RegionViewApi></RegionViewApi>
+      {/* <RegionViewApi></RegionViewApi> */}
+      <RegionSagaView></RegionSagaView>
     </div>
     
   );
